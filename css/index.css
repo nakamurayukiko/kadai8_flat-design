@@ -1,0 +1,415 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'BlackJackRegular';
+  src: url("../BlackJack_Regular/BLACKJAR.TTF");
+}
+
+
+
+.contents {
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../img/header.jpg);
+  background-size: 100%;
+  height: 651px;
+  position: relative;
+  overflow: hidden;
+}
+
+.show-for-surprize {
+  height: 651px;
+  background-color: #e57f85;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  z-index: 5;
+}
+
+.close {
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 165px;
+  padding-bottom: 144px; 
+}
+
+.close a:hover {
+  opacity: 0.7;
+}
+
+table {
+  width: 192px;
+  margin: 0 auto;
+}
+
+table tr td img {
+  padding-right: 20px;
+  margin-bottom: 14px;
+}
+
+table tr td img,p {
+  vertical-align: middle;
+}
+
+table tr td p {
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+  text-align-last: left;
+}
+
+table tr a:hover {
+  opacity: 0.7;
+}
+
+
+
+
+.header-first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative; 
+}
+
+.p {
+  padding: 15px 36px 27px 36px;
+  background-color: #fff;
+  font-family: 'Kaushan Script', cursive;
+  width: 100px;
+  height: 100px;
+  color: #0da9e5;
+  font-size: 50px;
+  position: absolute;
+  z-index: 3;
+}
+
+.p:hover {
+  opacity: 0.7;
+}
+
+.p:active {
+  top: 15px;
+  left: 14px;
+  opacity: 1;
+}
+
+.shadow {
+  background-color: #26b0e6;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  z-index: 2;
+}
+
+.navi {
+  padding-top: 38px;
+}
+
+.navi:hover {
+  opacity:0.7;
+}
+
+header h1 {
+  font-family: "BlackJackRegular";
+  font-size: 70px;
+  color: #fff;
+  padding-top: 110px;
+  text-align: right;
+  padding-bottom: 45px;
+}
+
+header p {
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+  font-weight: 100;
+  
+}
+
+header span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.button-d {
+ text-align: right;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 3px;
+}
+header .button {
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 27px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
+  margin-top: 52px;
+}
+
+header .button:hover {
+  opacity:0.7;
+
+}
+
+header .button img {
+  padding-left: 12px;
+  padding-right: 29px;
+}
+
+.iphone {
+  position: absolute;
+  top: 383px;
+  left: 231px;
+}
+
+.content1 {
+  height: 648px;
+  background: #f4f4f4;
+  position: relative;
+  overflow: hidden;
+}
+
+.content1 h2 {
+  padding-top: 148px;
+  padding-bottom: 36px;
+}
+
+.text-wrapper h2 {
+  font-family: "Proxima Nova";
+  font-size: 40px;
+  
+  color: #545454;
+  font-weight: 100;
+  
+}
+
+.content1 p {
+  width: 552px;
+}
+
+.text-wrapper p { 
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  line-height: 1.56em;
+  color: #7e7e7e;
+  
+}
+
+.btm-p {
+  font-style: italic;
+  border-left: 7px solid #4eacdd;
+  padding-left: 18px;
+  margin-top: 18px;
+}
+
+.text-wrapper .button {
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 26px;
+  color: #14af8f;
+  background: none;
+  border: 2px solid #14af8f;
+  margin-top: 74px;
+}
+
+.text-wrapper .button:hover {
+  opacity:0.7;
+}
+
+.text-wrapper .button img {
+  padding-left: 17px;
+  padding-right: 31px;
+}
+
+.ipad {
+  position: absolute;
+  top: 151px;
+  right: 0;
+}
+
+.content2 .text-wrapper {
+  padding-left: 544px;
+}
+.content2 {
+  height: 660px;
+  
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.content2 h2 {
+  padding-top: 104px;
+  padding-bottom: 41px;
+}
+
+.content2 p {
+  width: 395px;
+}
+
+.text-wrapper span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.content2 .button{
+  color: #ea4c89;
+  border: 2px solid #ea4c89;
+  margin-top: 55px;
+}
+
+.devices {
+  position: absolute;
+  top: 302px;
+  left: 0;
+}
+
+.content3 {
+  background-image: url(../img/greenbg.jpg);
+  background-size: 100%;
+  height: 327px;
+  text-align: center;
+}
+
+.content3 h2 {
+  font-family: "Proxima Nova";
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
+  padding-top: 99px;
+  padding-bottom: 44px;
+}
+
+.content3 .button {
+  color: #fff;
+  border: 2px solid #fff;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 26px;
+  background: none;
+}
+
+.content3 .button:hover {
+  opacity: 0.7;
+}
+
+.content3 .button img {
+  padding-left: 17px;
+  padding-right: 31px;
+}
+
+.content4 {
+  height: 648px;
+  background-color: #f4f4f4;
+}
+
+.sns-wrapper {
+  width: 334px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 246px;
+  padding-bottom: 66px;
+}
+
+.sns-wrapper a:hover {
+  opacity: 0.7;
+}
+
+.subscription {
+  width: 428px;
+  display: flex;
+  margin: 0 auto; 
+  align-items: center;
+  
+}
+
+.subscription p {
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  font-style: italic;
+  padding-right: 24px;
+  color: #545454;
+}
+
+
+#email {
+ 
+  border: none;
+  outline: none;
+  
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  
+  color: #d3d3d3;
+ 
+}
+
+#email:hover {
+  opacity: 0.7;
+}
+
+#send {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+#send:hover {
+  opacity: 0.7;
+}
+
+#post {
+  padding-right: 18px;
+  padding-left: 19px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  width: 223px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  height: 102px;
+}
+
+footer p {
+  padding-top: 54px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .blue {
+  color: #78c9eb;
+}
+
+footer .italic {
+  font-style: italic;
+}

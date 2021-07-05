@@ -1,0 +1,232 @@
+@media screen and (max-width:786px) {
+  
+  .contents {
+    width: 100%;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  header {
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .show-for-surprize {
+    height: 420px;
+  }
+  
+  .close {
+    padding-right: 40px;
+    padding-bottom: 50px; 
+  }
+  
+  
+  .header-first-row {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .logo {
+    position: relative; 
+  }
+  
+  .p {
+    padding: 9px 21px 15px 21px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+  
+  .p:active {
+    top: 9px;
+    left: 9px;
+  }
+  
+  .shadow {
+    width: 60px;
+    height: 60px;
+    top: 9px;
+    left: 9px;
+  }
+  
+  .navi {
+    padding-top: 28px;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    padding-top: 65px;
+    text-align: right;
+    padding-bottom: 23px;
+  }
+  
+  header p {
+    font-size: 20px;
+    text-align: right;  
+  }
+  
+  
+  .button-d {
+   text-align: right;
+  }
+  
+  header .button {
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 27px;
+    margin-top: 36px;
+  }
+  
+  .iphone {
+    position: absolute;
+    width: 30%;
+    top: 320px;
+    left: 20%;
+  }
+  /* --------------- */
+  .content1 {
+    height: 550px;
+    background: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content1 h2 {
+    padding-top: 74px;
+    padding-bottom: 18px;
+  }
+  
+  .text-wrapper h2 {
+    font-size: 20px;
+  }
+  
+  .content1 p {
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  .text-wrapper p { 
+    font-size: 14px;
+    
+  }
+  
+  .text-wrapper .button {
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 26px;
+    margin-top: 32px;
+    margin-bottom: 74px;
+  }
+  
+  .ipad {
+    position: absolute;
+    
+    top: 350px;
+    left: 60%;
+  }
+
+  .ipad img {
+    width: 100%;
+  }
+  
+
+  
+ /* ------------------------  */
+  .content2 .text-wrapper {
+    padding-left: 0px;
+  }
+  .content2 {
+    height: auto;
+  }
+  
+  .content2 h2 {
+    padding-top: 52px;
+    padding-bottom: 21px;
+  }
+  
+  .content2 p {
+    width: 100%;
+  }
+  
+  .content2 .button{
+    margin-top: 27px;
+    margin-bottom: 350px;
+  }
+  
+  .devices {
+    position: absolute;
+    top: 330px;
+    left: 0;
+   
+  }
+
+  .devices img {
+    width: 100%;
+  }
+  .content3 {
+    background-size: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .content3 h2 {
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 22px;
+  }
+  
+  .content3 .button {
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 26px;
+    margin-bottom: 45px;
+  }
+  
+  .content4 {
+    height: auto;
+  }
+  
+  .sns-wrapper {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  .subscription {
+    width: 100%;
+    display: block; 
+    text-align: center;
+  }
+  
+  .subscription p {
+    font-size: 14px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    
+  }
+  
+  
+  .form {
+    display: inline-block;
+    margin-bottom: 70px;
+  }
+  
+  footer {
+    height: auto;
+  }
+  
+  footer p {
+    padding-top: 27px;
+    font-size: 12px;
+    padding-bottom: 27px;
+  }
+ 
+}
